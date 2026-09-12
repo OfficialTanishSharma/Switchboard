@@ -1,0 +1,31 @@
+{
+  "name": "@rolbol/switchboard",
+  "version": "2.4.0",
+  "description": "Dependency-free local AI gateway with dashboard-managed providers, encrypted credentials, fallback routing, and SSE translation.",
+  "main": "server.js",
+  "type": "commonjs",
+  "bin": {
+    "switchboard": "server.js",
+    "switchboard-claude": "claude-switchboard.js"
+  },
+  "files": [
+    "server.js",
+    "claude-switchboard.js",
+    "README.txt",
+    "start-switchboard.cmd",
+    "start-claude.cmd",
+    "Start-Switchboard.ps1",
+    "Start-Claude.ps1"
+  ],
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {}
+}
