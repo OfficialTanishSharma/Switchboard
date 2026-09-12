@@ -11,7 +11,7 @@
   "files": [
     "server.js",
     "claude-switchboard.js",
-    "README.txt",
+    "README.md",
     "start-switchboard.cmd",
     "start-claude.cmd",
     "Start-Switchboard.ps1",

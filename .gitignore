@@ -1,0 +1,26 @@
+# Never commit local state — encrypted keys + request history live here
+switchboard-state.json
+switchboard.key
+switchboard.log
+switchboard.db
+switchboard.db-shm
+switchboard.db-wal
+
+# Secrets / env
+.env
+.env.*
+
+# Node
+node_modules/
+npm-debug.log*
+*.tgz
+
+# Local build leftovers
+*.zip
+package/
+rolbol-switchboard-*/
+switchboard-global-*/
+
+# OS noise
+Thumbs.db
+.DS_Store
